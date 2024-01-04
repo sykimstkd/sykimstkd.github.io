@@ -1,0 +1,738 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+.nav{
+  padding: 0;
+  margin: 0;
+  height: 70px;
+  background-color: #353434;
+ /* background-color: #353434;*/
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  
+}
+body{
+  background-image: linear-gradient(to right,#ffffff,rgb(255, 255, 255));
+ /* background-image: linear-gradient(to right,rgb(91, 118, 215),rgb(22, 52, 148));*/
+ /* background-color: #868da4;/*
+  /*background-color: #5469ac;*/
+  /*background-color: #1e4de9*/
+
+}
+
+#homePicsLarge{
+  display: none;
+}
+
+/*slide start*/
+
+
+/*.homePageSlideShowContainer{
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgb(43, 43, 43);
+}
+
+.img-slider{
+  position: relative;
+  width: 100%;
+  margin:10px;
+  overflow: hidden;
+  background: rgb(43, 43, 43);
+}
+
+.img-slider .slide{
+  z-index: 1;
+  position:absolute;
+  height: 100%;
+  opacity: 0;
+  
+
+}
+
+.img-slider .slide.active{
+  opacity: 1;
+  transition: 2s;
+  transition-property: translate 0.3s ease;
+}
+
+.img-slider .slide img{
+  z-index: 1;
+  border-radius: 5px;
+  width: 100%;
+  
+}
+
+.navHome{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  
+  
+}
+
+.img-slider:hover .navHome{
+  opacity: 1;
+
+}
+
+.prev-btn, .next-btn{
+  z-index: 999;
+  font-size: 2em;
+  color: #000000;
+  background: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev-btn{
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.next-btn{
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.navigationVisibility{
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+}
+
+.navigationVisibility .slide-icon{
+  z-index: 999;
+  background: rgb(193, 193, 186);
+  width: 20px;
+  height: 10px;
+  transform: translateY(-50px);
+  margin: 0 6px;
+  border-radius: 2px;
+  box-shadow: 0 5 px 25px;
+}
+
+.navigationVisibility .slide-icon.active{
+  background: #1e4de9;
+
+}
+
+
+
+
+
+
+
+/*slide end*/
+
+
+
+.headerItem:hover{
+  background-color: rgba(210, 210, 214, 0.534);
+  
+}
+
+.nav ul li{
+  list-style: none;
+  display: inline-block;
+  line-height: 70px;
+}
+.nav ul li a{
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial;
+  color: #EAE7DC;
+  padding: 0 20px;
+}
+
+
+
+
+.mySlides{
+ height: 450px;
+ width: 100%;
+ 
+}
+#stu{
+  width: 30%;
+  text-align: left;
+  margin: auto;
+}
+
+.school_rules{
+  font-size: 20px;
+  
+  /*float: left;
+  padding-right: 10px;*/
+}
+.midwayHeader{
+  display: block;
+  clear: both;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  
+
+}
+.midwayHeader img{
+  /*poomsae img*/
+  width: 50%;
+  height: 80%;
+
+}
+
+#testID{
+  width: 500px;
+}
+#contactInfo{
+  font-size: medium;
+  
+}
+
+.contactMiddle{
+  width: 50%;
+  height: 500px; 
+  text-align: center;
+}
+.slideshowHolder{
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  border-style: solid;
+  border-color:black;
+  display:flex;
+  justify-content: center;
+}
+.doubleGalleryHolder{
+  display: flex;
+}
+.singleGalleryHolder{
+  width: 50%;
+}
+.singleGalleryHolder h1{
+  text-align: center;
+}
+.slideshowHolder img:hover{
+  transform: scale(1.03);
+
+}
+
+
+.picContainer{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-around
+  
+}
+
+
+
+
+
+.singleProgramContainer{
+  width: 100%;
+}
+.singleProgramContainer p{
+  font-size: 22px;
+}
+.agePrograms p{
+  font-size: 20px;
+}
+.programsSection{
+  width: 80%;
+  margin: auto;
+
+}
+.programsSection p{
+  font-size:20px;
+  position: relative;
+  left: 5px;
+}
+.programsSection img{
+  width: 226px;
+  float: left;
+  border-style: solid;
+}
+
+.scheduleTable{
+  width: 100%;
+}
+.scheduleTable th,.scheduleTable tr{
+  border-style: solid;
+  background-color: white;
+}
+.scheduleTable img{
+  width: 50px;
+
+}
+
+.contactContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.contactMobile{
+  display: none;
+}
+
+.pSpacingPrograms p{
+  width: 95%;
+  padding-left: 5px;
+  
+}
+
+.studentResourcesHeaderText{
+  margin: auto;
+  line-height:300px;
+  font-size:45px;
+  color:rgb(0,0,0);
+
+}
+.classScheduleHeaderText{
+  margin: auto;
+  line-height:300px;
+  font-size:50px;
+}
+.benefitsHeaderText{
+  font-size:15px;
+  color:rgb(219,204,69);
+}
+
+.belowPrograms{
+  font-size:25px;
+  line-height:30px;
+  color: rgb(219,204,69);
+}
+
+.peopleDescription{
+  color: rgb(219,204,69);
+  padding-left: 5px;
+
+}
+
+.scrollUp{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.scrollUp.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/*pop up animation for changing page*/
+.popUp{
+  animation: transitionIn 0.5s;
+}
+@keyframes transitionIn{
+  from{
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to{
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+.leftSlide{
+  animation: slideLeft 1s;
+}
+@keyframes slideLeft {
+  from{
+    transform: translateX(-100px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+  
+}
+
+.rightSlide{
+  animation: slideright 1s;
+}
+@keyframes slideright {
+  from{
+    transform: translateX(100px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+  
+}
+
+.upSlide{
+  animation: slideUp 1s;
+}
+@keyframes slideUp {
+  from{
+    transform: translateY(100px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+  
+}
+
+
+
+
+
+/* feet*/
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer{
+  clear: both;
+ margin: 0;
+ padding: 50px 50px 50px 0px;
+ box-sizing: border-box;
+  background-color: rgb(53, 52, 52);
+}
+.footer-col{
+  width: 20%;/*25 og*/
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+  background-color:  rgb(53, 52, 52);
+
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+ /* background-color: #1e4de9;*/
+ background-color: rgb(46, 77, 159);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col li{
+  list-style: none;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col p{
+ /* color: #8E8D8A;*/
+ color: #8E8D8A;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300px;
+  color: #8E8D8A;
+  display: block;
+  transition: all 0.3s ease;
+
+}
+.footList li a:hover{
+  color: rgb(227, 226, 224);
+  padding-left: 10px;
+}
+.footList p a{
+  color: #35383b;
+}
+.footList p a:hover{
+  color: rgb(227, 226, 224);
+  padding-left: 10px;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(87, 85, 89);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color:white;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  background-color: #1e4de9;
+}
+/*responsiveness*/
+
+@media(max-width:2500px){
+   .mobileProgramPage{
+    display: none;
+   }
+   .mobileBenefits{
+    display: none;
+   }
+   .mobileAbout{
+    display: none;
+   }
+   .indexMobile{
+    display: none;
+   }
+   
+}
+
+@media(max-width:1480px){
+  .singleProgramContainer p{
+    font-size: 20px;
+  }
+}
+
+
+@media(max-width:1340px){
+  .agePrograms p{
+    font-size: 18px;
+  }
+}
+
+@media(max-width:1207px){
+  .agePrograms p{
+    font-size: 16px;
+  }
+}
+
+@media(max-width:1180px){
+  .singleProgramContainer p{
+    font-size: 18px;
+  }
+}
+
+@media(max-width:1149px){
+  .contactMiddle{
+    width: 100%;
+  }
+  #stu{
+    width: 45%;
+  }
+}
+
+@media(max-width:1100px){
+  .doubleGalleryHolder{
+    display: block;
+  }
+  .singleGalleryHolder{
+    width: 100%;
+  }
+}
+
+@media(max-width:1080px){
+  .desktopProgramPage{
+    display: none;
+  }
+  .mobileProgramPage{
+    display:inline;
+    
+  }
+}
+
+@media(max-width:1050px){
+  
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media(max-width:948px){
+  .nav{
+    display: none;
+  }
+  .mySlides{
+    padding-top: 50px;
+  }
+}
+
+
+
+@media(max-width:930px){
+  .programsSection{
+    width: 100%;
+  }
+  .programsSection p{
+    position: inherit;
+    left: 0px;
+  }
+  
+}
+
+@media(max-width:836px){
+  .desktopAbout{
+    display: none;
+  }
+  .mobileAbout{
+    display: inline;
+  }
+  .desktopBenefits{
+    display: none;
+  }
+  .mobileBenefits{
+    display: inline;
+  }
+  .singleProgramContainer p{
+    font-size: 18px;
+  }
+  .contactDesktop{
+    display: none;
+  }
+  .contactMobile{
+    display: inline;
+  }
+  #homePicsSmall{
+    display: none;
+  }
+  #homePicsLarge{
+    display: inline;
+  }
+  .indexDesktop{
+    display: none;
+  }
+  .indexMobile{
+    display: inline;
+  }
+  .homePageSlideShowContainer{
+    display: none;
+  }
+
+}
+
+
+@media(max-width:775px){
+  .singleProgramContainer p{
+    font-size: 16px;
+  }
+}
+
+
+@media(max-width:730px){
+  .nav{
+    height: 140px;
+  }
+  .testColumn img{
+    height: 100px;
+    width: 100px;
+
+  }
+  .slideshowHolder{
+    height: 200px;
+  }
+  #stu{
+    width: 90%;
+  }
+}
+
+@media(max-width:775px){
+  .singleProgramContainer p{
+    font-size: 14px;
+  }
+}
+
+@media(max-width:580px){
+  .singleProgramContainer p{
+   font-size: 12px;
+ }
+}
+
+
+
+@media(max-width:574px){
+  .footer-col{
+    width: 100%;
+  }
+  #poomsaeVids{
+    width: 350px;
+  }
+  .contactMiddle{
+    width: 100%;
+  }
+  .contactContainer iframe{
+    width: 414px;
+  }
+  .mySlides{
+    height: 300px;
+  }
+  .scheduleTable img{
+    width: 20px;
+  }
+  .scheduleTable tr, .scheduleTable th{
+    font-size: 10px;
+  }
+  
+}
+
+@media(max-width:430px){
+  .benefitsHeaderText{
+    font-size: 14px;
+  }
+
+}
+
+
+/*iphone width*/
+@media(max-width:420px){
+  .programsSection img{
+    width: 150px;
+  }
+  .programsSection p{
+    font-size: 12px;
+  }
+  
+  
+
+}
+
+@media(max-width:413px){
+  .studentResourcesHeaderText{
+    font-size: 33px;
+  }
+  .classScheduleHeaderText{
+    font-size: 33px;
+  }
+}
+@media(max-width:390px){
+  .benefitsHeaderText{
+    font-size: 13px;
+  }
+
+}
+
+@media(max-width:340px){
+  .belowPrograms{
+    font-size: 15px;
+    line-height: 15px;
+  }
+  
+}
+
+
+
+
+

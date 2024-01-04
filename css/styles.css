@@ -29,111 +29,9 @@ body{
   display: none;
 }
 
-/*slide start*/
-
-
-/*.homePageSlideShowContainer{
-  height: 95vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background:rgb(43, 43, 43);
+.aboutPeopleNames{
+  font-size: 30px;
 }
-
-.img-slider{
-  position: relative;
-  width: 100%;
-  margin:10px;
-  overflow: hidden;
-  background: rgb(43, 43, 43);
-}
-
-.img-slider .slide{
-  z-index: 1;
-  position:absolute;
-  height: 100%;
-  opacity: 0;
-  
-
-}
-
-.img-slider .slide.active{
-  opacity: 1;
-  transition: 2s;
-  transition-property: translate 0.3s ease;
-}
-
-.img-slider .slide img{
-  z-index: 1;
-  border-radius: 5px;
-  width: 100%;
-  
-}
-
-.navHome{
-  height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  
-  
-}
-
-.img-slider:hover .navHome{
-  opacity: 1;
-
-}
-
-.prev-btn, .next-btn{
-  z-index: 999;
-  font-size: 2em;
-  color: #000000;
-  background: #f1f1f1;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.prev-btn{
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-}
-
-.next-btn{
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-
-.navigationVisibility{
-  z-index: 999;
-  display: flex;
-  justify-content: center;
-}
-
-.navigationVisibility .slide-icon{
-  z-index: 999;
-  background: rgb(193, 193, 186);
-  width: 20px;
-  height: 10px;
-  transform: translateY(-50px);
-  margin: 0 6px;
-  border-radius: 2px;
-  box-shadow: 0 5 px 25px;
-}
-
-.navigationVisibility .slide-icon.active{
-  background: #1e4de9;
-
-}
-
-
-
-
-
-
-
-/*slide end*/
 
 
 
@@ -559,8 +457,13 @@ body{
     width: 50%;
     margin-bottom: 30px;
   }
+  .aboutPeopleNames{
+    font-size: 25px;
+  }
 
 }
+
+
 
 @media(max-width:948px){
   .nav{
@@ -584,13 +487,19 @@ body{
   
 }
 
+@media(max-width:860px){
+  .aboutPeopleNames{
+    font-size: 20px;
+  }
+}
+
 @media(max-width:836px){
-  .desktopAbout{
+ /* .desktopAbout{
     display: none;
   }
   .mobileAbout{
     display: inline;
-  }
+  }*/
   .desktopBenefits{
     display: none;
   }
@@ -629,6 +538,7 @@ body{
   .singleProgramContainer p{
     font-size: 16px;
   }
+  
 }
 
 
@@ -652,6 +562,12 @@ body{
 @media(max-width:775px){
   .singleProgramContainer p{
     font-size: 14px;
+  }
+}
+
+@media(max-width:690px){
+  .aboutPeopleNames{
+    font-size: 16px;
   }
 }
 
@@ -688,12 +604,27 @@ body{
   
 }
 
+@media(max-width:555px){
+  .aboutPeopleNames{
+    font-size: 14px;
+  }
+
+}
+@media(max-width:489px){
+  .aboutPeopleNames{
+    font-size: 12px;
+  }
+
+}
+
 @media(max-width:430px){
   .benefitsHeaderText{
     font-size: 14px;
   }
 
 }
+
+
 
 
 /*iphone width*/
@@ -703,6 +634,9 @@ body{
   }
   .programsSection p{
     font-size: 12px;
+  }
+  .aboutPeopleNames{
+    font-size: 11px;
   }
   
   
